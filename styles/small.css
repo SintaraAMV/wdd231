@@ -139,3 +139,9 @@ footer a {
   margin: 0 0.5rem;
   text-decoration: none;
 }
+.logo-img {
+  width: 36px;
+  height: 36px;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+}
