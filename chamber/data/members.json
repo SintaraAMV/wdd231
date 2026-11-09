@@ -1,65 +1,65 @@
 [
   {
-    "name": "Sintara Tech",
-    "address": "Av. Javier Prado 1234, San Isidro, Lima",
-    "phone": "+51 986 793 879",
-    "website": "https://sintara.example.com",
-    "image": "sintara.png",
+    "name": "Bembos",
+    "address": "Av. Javier Prado Este 4200, Surco, Lima",
+    "phone": "+51 1 311 5000",
+    "website": "https://www.bembos.com.pe",
+    "image": "bembos.png",
     "membership": 3,
-    "description": "Software development and digital solutions."
+    "description": "Popular Peruvian fast-food chain known for burgers."
   },
   {
-    "name": "Café del Centro",
-    "address": "Jirón de la Unión 456, Cercado de Lima",
-    "phone": "+51 1 428 1122",
-    "website": "https://cafedelcentro.example.com",
-    "image": "cafe.png",
+    "name": "Wong",
+    "address": "Av. Angamos Este 1805, Miraflores, Lima",
+    "phone": "+51 1 625 0000",
+    "website": "https://www.wong.pe",
+    "image": "wong.png",
+    "membership": 3,
+    "description": "Major supermarket chain in Lima."
+  },
+  {
+    "name": "Plaza Vea",
+    "address": "Av. Primavera 2390, Surco, Lima",
+    "phone": "+51 1 618 8000",
+    "website": "https://www.plazavea.com.pe",
+    "image": "plazavea.png",
     "membership": 2,
-    "description": "Traditional Peruvian coffee and pastries."
+    "description": "Supermarket chain with many locations in Lima."
   },
   {
-    "name": "Miraflores Tours",
-    "address": "Av. Larco 789, Miraflores, Lima",
-    "phone": "+51 1 445 6677",
-    "website": "https://mirafloestours.example.com",
-    "image": "tours.png",
+    "name": "Interbank",
+    "address": "Av. Carlos Villarán 140, La Victoria, Lima",
+    "phone": "+51 1 311 9000",
+    "website": "https://interbank.pe",
+    "image": "interbank.png",
     "membership": 3,
-    "description": "Guided tours of Lima and surroundings."
+    "description": "One of Peru's largest banks."
   },
   {
-    "name": "Andean Textiles",
-    "address": "Jr. Ucayali 321, Centro Histórico",
-    "phone": "+51 1 427 8899",
-    "website": "https://andeantextiles.example.com",
-    "image": "textiles.png",
-    "membership": 1,
-    "description": "Handcrafted textiles and souvenirs."
-  },
-  {
-    "name": "Pacific Seafood",
-    "address": "Malecón de la Reserva 100, Miraflores",
-    "phone": "+51 1 446 2233",
-    "website": "https://pacificseafood.example.com",
-    "image": "seafood.png",
+    "name": "Saga Falabella",
+    "address": "Av. Paseo de la República 3220, San Isidro, Lima",
+    "phone": "+51 1 616 1000",
+    "website": "https://www.falabella.com.pe",
+    "image": "falabella.png",
     "membership": 2,
-    "description": "Fresh ceviche and seafood restaurant."
+    "description": "Department store chain."
   },
   {
-    "name": "Inca Wellness",
-    "address": "Av. Primavera 567, Surco, Lima",
-    "phone": "+51 1 435 7788",
-    "website": "https://incawellness.example.com",
-    "image": "wellness.png",
-    "membership": 3,
-    "description": "Spa and wellness center."
-  },
-  {
-    "name": "Lima Print Shop",
-    "address": "Av. Arequipa 890, Lince, Lima",
-    "phone": "+51 1 471 3344",
-    "website": "https://limaprint.example.com",
-    "image": "print.png",
+    "name": "Café Café",
+    "address": "Av. Larco 812, Miraflores, Lima",
+    "phone": "+51 1 445 1165",
+    "website": "https://www.cafecafe.pe",
+    "image": "cafecafe.png",
     "membership": 1,
-    "description": "Printing and design services."
+    "description": "Popular café chain in Lima."
+  },
+  {
+    "name": "La Rosa Náutica",
+    "address": "Espigón Miraflores, Costa Verde, Lima",
+    "phone": "+51 1 445 0149",
+    "website": "https://www.larosanautica.com",
+    "image": "larosanautica.png",
+    "membership": 3,
+    "description": "Iconic seafood restaurant on the pier in Miraflores."
   }
 ]
