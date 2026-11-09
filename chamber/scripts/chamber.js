@@ -15,7 +15,7 @@ menuButton.addEventListener("click", () => {
 
 // Weather API
 const weatherContainer = document.getElementById("weather-info");
-const apiKey = "09022e0b7336d84182dc510592e5ca5e"; // OpenWeatherMap API key
+const apiKey = "09022e0b7336d84182dc510592e5ca5e"; // Replace with your OpenWeatherMap API key
 const city = "Lima,PE";
 const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
 const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&units=metric&appid=${apiKey}`;
