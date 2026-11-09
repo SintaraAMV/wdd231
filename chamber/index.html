@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Lima Chamber of Commerce</title>
+  <meta name="description" content="Welcome to the Lima Chamber of Commerce. Discover local businesses, events, and opportunities in Lima, Peru.">
+  <meta name="author" content="Omar Lizandro Meza Ramirez">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <script src="scripts/chamber.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo-name">
+      <span class="logo">LC</span>
+      <span class="chamber-name">Lima Chamber of Commerce</span>
+    </div>
+    <button id="menu-button" aria-label="Open navigation menu">&#9776;</button>
+    <nav id="main-nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="discover.html">Discover</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <img src="images/hero.jpg" alt="Lima skyline with modern buildings and the Pacific Ocean in the background" id="hero-img">
+      <div class="hero-content">
+        <h1>Welcome to the Lima Chamber of Commerce</h1>
+        <p>Connecting businesses and building opportunities in Lima, Peru.</p>
+        <a href="join.html" class="cta-button">Join the Chamber</a>
+      </div>
+    </section>
+
+    <!-- Events Section -->
+    <section class="events">
+      <h2>Upcoming Events</h2>
+      <div class="event-cards">
+        <article class="event-card">
+          <h3>Business Networking Breakfast</h3>
+          <p>Date: November 20, 2026</p>
+          <p>Location: Miraflores Convention Center</p>
+          <p>Connect with local entrepreneurs and grow your network.</p>
+        </article>
+        <article class="event-card">
+          <h3>Digital Marketing Workshop</h3>
+          <p>Date: November 27, 2026</p>
+          <p>Location: San Isidro Business Hub</p>
+          <p>Learn practical strategies to promote your business online.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Weather Section -->
+    <section class="weather">
+      <h2>Current Weather in Lima</h2>
+      <div id="weather-info">
+        <p>Loading weather data...</p>
+      </div>
+    </section>
+
+    <!-- Company Spotlight -->
+    <section class="spotlight">
+      <h2>Company Spotlight</h2>
+      <div id="spotlight-container" class="spotlight-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Lima Chamber of Commerce | Omar Lizandro Meza Ramirez | WDD 231</p>
+    <p>&copy; <span id="currentyear"></span> | <span id="lastModified"></span></p>
+  </footer>
+</body>
+</html>
