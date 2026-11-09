@@ -45,21 +45,21 @@
     "description": "Department store chain."
   },
   {
-    "name": "Café Café",
-    "address": "Av. Larco 812, Miraflores, Lima",
-    "phone": "+51 1 445 1165",
-    "website": "https://www.cafecafe.pe",
-    "image": "cafecafe.png",
-    "membership": 1,
-    "description": "Popular café chain in Lima."
+    "name": "Tottus",
+    "address": "Av. Javier Prado Este 1050, San Isidro, Lima",
+    "phone": "+51 1 615 1000",
+    "website": "https://www.tottus.com.pe",
+    "image": "tottus.png",
+    "membership": 2,
+    "description": "Hypermarket and supermarket chain."
   },
   {
-    "name": "La Rosa Náutica",
-    "address": "Espigón Miraflores, Costa Verde, Lima",
-    "phone": "+51 1 445 0149",
-    "website": "https://www.larosanautica.com",
-    "image": "larosanautica.png",
+    "name": "Banco de Crédito del Perú (BCP)",
+    "address": "Av. Centenario 156, La Molina, Lima",
+    "phone": "+51 1 311 9898",
+    "website": "https://www.viabcp.com",
+    "image": "bcp.png",
     "membership": 3,
-    "description": "Iconic seafood restaurant on the pier in Miraflores."
+    "description": "Largest bank in Peru."
   }
 ]
