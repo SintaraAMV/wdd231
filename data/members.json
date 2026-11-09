@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Sintara Tech",
+    "address": "Av. Javier Prado 1234, San Isidro, Lima",
+    "phone": "+51 986 793 879",
+    "website": "https://sintara.example.com",
+    "image": "sintara.png",
+    "membership": 3,
+    "description": "Software development and digital solutions."
+  },
+  {
+    "name": "Café del Centro",
+    "address": "Jirón de la Unión 456, Cercado de Lima",
+    "phone": "+51 1 428 1122",
+    "website": "https://cafedelcentro.example.com",
+    "image": "cafe.png",
+    "membership": 2,
+    "description": "Traditional Peruvian coffee and pastries."
+  },
+  {
+    "name": "Miraflores Tours",
+    "address": "Av. Larco 789, Miraflores, Lima",
+    "phone": "+51 1 445 6677",
+    "website": "https://mirafloestours.example.com",
+    "image": "tours.png",
+    "membership": 3,
+    "description": "Guided tours of Lima and surroundings."
+  },
+  {
+    "name": "Andean Textiles",
+    "address": "Jr. Ucayali 321, Centro Histórico",
+    "phone": "+51 1 427 8899",
+    "website": "https://andeantextiles.example.com",
+    "image": "textiles.png",
+    "membership": 1,
+    "description": "Handcrafted textiles and souvenirs."
+  },
+  {
+    "name": "Pacific Seafood",
+    "address": "Malecón de la Reserva 100, Miraflores",
+    "phone": "+51 1 446 2233",
+    "website": "https://pacificseafood.example.com",
+    "image": "seafood.png",
+    "membership": 2,
+    "description": "Fresh ceviche and seafood restaurant."
+  },
+  {
+    "name": "Inca Wellness",
+    "address": "Av. Primavera 567, Surco, Lima",
+    "phone": "+51 1 435 7788",
+    "website": "https://incawellness.example.com",
+    "image": "wellness.png",
+    "membership": 3,
+    "description": "Spa and wellness center."
+  },
+  {
+    "name": "Lima Print Shop",
+    "address": "Av. Arequipa 890, Lince, Lima",
+    "phone": "+51 1 471 3344",
+    "website": "https://limaprint.example.com",
+    "image": "print.png",
+    "membership": 1,
+    "description": "Printing and design services."
+  }
+]
