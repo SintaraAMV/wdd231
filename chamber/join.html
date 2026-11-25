@@ -8,7 +8,7 @@
   <meta name="author" content="Omar Lizandro Meza Ramirez">
   <meta property="og:title" content="Join the Lima Chamber of Commerce">
   <meta property="og:description" content="Apply for membership and grow your business with the Lima Chamber of Commerce.">
-  <meta property="og:image" content="https://sintaraamv.github.io/wdd231/chamber/images/logo.webp">
+  <meta property="og:image" content="https://sintaraamv.github.io/wdd231/chamber/images/og-image.webp">
   <meta property="og:url" content="https://sintaraamv.github.io/wdd231/chamber/join.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,12 +16,13 @@
   <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="styles/join.css">
   <link rel="icon" href="images/favicon.ico">
+  <script src="scripts/join.js" defer></script>
 </head>
 <body>
   <header>
     <div class="header-container">
       <img src="images/logo.webp" alt="Lima Chamber of Commerce Logo" class="logo" width="50" height="50">
-      <h1>Lima Chamber of Commerce</h1>
+      <p class="site-name">Lima Chamber of Commerce</p>
       <button id="menu-button" aria-label="Open navigation menu">☰</button>
     </div>
     <nav id="main-nav">
@@ -40,7 +41,7 @@
 
     <div class="join-container">
       <section class="form-section">
-        <h3>Membership Application</h3>
+        <h2>Membership Application</h2>
         <form method="get" action="thankyou.html">
           <label>
             First Name
@@ -98,25 +99,25 @@
         <h3>Membership Levels</h3>
         <div class="cards">
           <article class="card">
-            <h4>NP Membership</h4>
+            <h3>NP Membership</h3>
             <p>For non-profit organizations</p>
             <button class="open-modal" data-modal="npModal">View Benefits</button>
           </article>
 
           <article class="card">
-            <h4>Bronze Membership</h4>
+            <h3>Bronze Membership</h3>
             <p>Essential benefits for small businesses</p>
             <button class="open-modal" data-modal="bronzeModal">View Benefits</button>
           </article>
 
           <article class="card">
-            <h4>Silver Membership</h4>
+            <h3>Silver Membership</h3>
             <p>Enhanced visibility and support</p>
             <button class="open-modal" data-modal="silverModal">View Benefits</button>
           </article>
 
           <article class="card">
-            <h4>Gold Membership</h4>
+            <h3>Gold Membership</h3>
             <p>Premium benefits and maximum exposure</p>
             <button class="open-modal" data-modal="goldModal">View Benefits</button>
           </article>
@@ -175,7 +176,5 @@
     <p>&copy; 2026 Lima Chamber of Commerce | Omar Lizandro Meza Ramirez</p>
     <p>WDD 231 Chamber Project</p>
   </footer>
-
-  <script src="scripts/join.js" defer></script>
 </body>
 </html>
