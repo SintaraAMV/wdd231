@@ -5,13 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thank You | Lima Chamber of Commerce</title>
   <meta name="description" content="Thank you for applying to the Lima Chamber of Commerce.">
+  <meta name="author" content="Omar Lizandro Meza Ramirez">
+  <meta property="og:title" content="Thank You | Lima Chamber of Commerce">
+  <meta property="og:description" content="Your membership application has been received.">
+  <meta property="og:url" content="https://sintaraamv.github.io/wdd231/chamber/thankyou.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&family=Source+Serif+4:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/base.css">
   <link rel="stylesheet" href="styles/join.css">
 </head>
 <body>
   <header>
     <div class="header-container">
-      <img src="images/logo.webp" alt="Lima Chamber of Commerce Logo" class="logo">
+      <img src="images/logo.webp" alt="Lima Chamber of Commerce Logo" class="logo" width="50" height="50">
       <h1>Lima Chamber of Commerce</h1>
     </div>
     <nav>
@@ -25,7 +32,7 @@
   </header>
 
   <main>
-    <h2>Thank You for Your Application</h2>
+    <h1>Thank You for Your Application</h1>
     <p>We have received your membership application. Here is a summary of the information you submitted:</p>
 
     <section id="application-summary">
@@ -44,15 +51,6 @@
     <p>&copy; 2026 Lima Chamber of Commerce | Omar Lizandro Meza Ramirez</p>
   </footer>
 
-  <script>
-    const params = new URLSearchParams(window.location.search);
-    document.getElementById('firstName').textContent = params.get('firstName') || '';
-    document.getElementById('lastName').textContent = params.get('lastName') || '';
-    document.getElementById('email').textContent = params.get('email') || '';
-    document.getElementById('phone').textContent = params.get('phone') || '';
-    document.getElementById('businessName').textContent = params.get('businessName') || '';
-    const ts = params.get('timestamp');
-    document.getElementById('timestamp').textContent = ts ? new Date(ts).toLocaleString() : '';
-  </script>
+  <script src="scripts/thankyou.js" defer></script>
 </body>
 </html>
