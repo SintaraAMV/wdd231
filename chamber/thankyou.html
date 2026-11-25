@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You | Lima Chamber of Commerce</title>
+  <meta name="description" content="Thank you for applying to the Lima Chamber of Commerce.">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/join.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="images/logo.webp" alt="Lima Chamber of Commerce Logo" class="logo">
+      <h1>Lima Chamber of Commerce</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Thank You for Your Application</h2>
+    <p>We have received your membership application. Here is a summary of the information you submitted:</p>
+
+    <section id="application-summary">
+      <p><strong>First Name:</strong> <span id="firstName"></span></p>
+      <p><strong>Last Name:</strong> <span id="lastName"></span></p>
+      <p><strong>Email:</strong> <span id="email"></span></p>
+      <p><strong>Phone:</strong> <span id="phone"></span></p>
+      <p><strong>Business Name:</strong> <span id="businessName"></span></p>
+      <p><strong>Submitted On:</strong> <span id="timestamp"></span></p>
+    </section>
+
+    <p><a href="index.html">Return to Home</a></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lima Chamber of Commerce | Omar Lizandro Meza Ramirez</p>
+  </footer>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    document.getElementById('firstName').textContent = params.get('firstName') || '';
+    document.getElementById('lastName').textContent = params.get('lastName') || '';
+    document.getElementById('email').textContent = params.get('email') || '';
+    document.getElementById('phone').textContent = params.get('phone') || '';
+    document.getElementById('businessName').textContent = params.get('businessName') || '';
+    const ts = params.get('timestamp');
+    document.getElementById('timestamp').textContent = ts ? new Date(ts).toLocaleString() : '';
+  </script>
+</body>
+</html>

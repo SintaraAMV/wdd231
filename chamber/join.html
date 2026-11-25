@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Join the Chamber | Lima Chamber of Commerce</title>
+  <meta name="description" content="Apply for membership in the Lima Chamber of Commerce. Choose from NP, Bronze, Silver, or Gold membership levels.">
+  <meta name="author" content="Omar Lizandro Meza Ramirez">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/join.css">
+  <link rel="icon" href="images/favicon.ico">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="images/logo.webp" alt="Lima Chamber of Commerce Logo" class="logo">
+      <h1>Lima Chamber of Commerce</h1>
+      <button id="menu-button" aria-label="Open navigation menu">☰</button>
+    </div>
+    <nav id="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html" class="active">Join</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Join the Lima Chamber of Commerce</h2>
+    <p>Become a member and grow your business with us.</p>
+
+    <div class="join-container">
+      <section class="form-section">
+        <h3>Membership Application</h3>
+        <form method="get" action="thankyou.html">
+          <label>
+            First Name
+            <input type="text" name="firstName" title="First Name" autocomplete="given-name" required>
+          </label>
+
+          <label>
+            Last Name
+            <input type="text" name="lastName" title="Last Name" autocomplete="family-name" required>
+          </label>
+
+          <label>
+            Organizational Title
+            <input type="text" name="orgTitle" title="Organizational Title" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}" title="Minimum 7 characters: letters, spaces, and hyphens only">
+          </label>
+
+          <label>
+            Email Address
+            <input type="email" name="email" title="Email Address" autocomplete="email" placeholder="example@email.com" required>
+          </label>
+
+          <label>
+            Mobile Phone Number
+            <input type="tel" name="phone" title="Mobile Phone Number" autocomplete="tel" required>
+          </label>
+
+          <label>
+            Business / Organization Name
+            <input type="text" name="businessName" title="Business or Organization Name" autocomplete="organization" required>
+          </label>
+
+          <label>
+            Membership Level
+            <select name="membershipLevel" title="Membership Level" required>
+              <option value="">Select a level</option>
+              <option value="np">NP Membership (Non-Profit - No Fee)</option>
+              <option value="bronze">Bronze Membership</option>
+              <option value="silver">Silver Membership</option>
+              <option value="gold">Gold Membership</option>
+            </select>
+          </label>
+
+          <label>
+            Business / Organization Description
+            <textarea name="description" title="Business Description" rows="4"></textarea>
+          </label>
+
+          <input type="hidden" name="timestamp" id="timestamp">
+
+          <button type="submit">Submit Application</button>
+        </form>
+      </section>
+
+      <section class="cards-section">
+        <h3>Membership Levels</h3>
+        <div class="cards">
+          <article class="card">
+            <h4>NP Membership</h4>
+            <p>For non-profit organizations</p>
+            <button class="open-modal" data-modal="npModal">View Benefits</button>
+          </article>
+
+          <article class="card">
+            <h4>Bronze Membership</h4>
+            <p>Essential benefits for small businesses</p>
+            <button class="open-modal" data-modal="bronzeModal">View Benefits</button>
+          </article>
+
+          <article class="card">
+            <h4>Silver Membership</h4>
+            <p>Enhanced visibility and support</p>
+            <button class="open-modal" data-modal="silverModal">View Benefits</button>
+          </article>
+
+          <article class="card">
+            <h4>Gold Membership</h4>
+            <p>Premium benefits and maximum exposure</p>
+            <button class="open-modal" data-modal="goldModal">View Benefits</button>
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <!-- Modals -->
+    <dialog id="npModal">
+      <h3>NP Membership Benefits</h3>
+      <ul>
+        <li>No membership fee</li>
+        <li>Basic directory listing</li>
+        <li>Access to community events</li>
+        <li>Monthly newsletter</li>
+      </ul>
+      <button class="close-modal">Close</button>
+    </dialog>
+
+    <dialog id="bronzeModal">
+      <h3>Bronze Membership Benefits</h3>
+      <ul>
+        <li>Directory listing with logo</li>
+        <li>Discounts on events</li>
+        <li>Training workshops</li>
+        <li>Networking opportunities</li>
+      </ul>
+      <button class="close-modal">Close</button>
+    </dialog>
+
+    <dialog id="silverModal">
+      <h3>Silver Membership Benefits</h3>
+      <ul>
+        <li>All Bronze benefits</li>
+        <li>Spotlight on homepage</li>
+        <li>Priority event registration</li>
+        <li>Advertising discounts</li>
+      </ul>
+      <button class="close-modal">Close</button>
+    </dialog>
+
+    <dialog id="goldModal">
+      <h3>Gold Membership Benefits</h3>
+      <ul>
+        <li>All Silver benefits</li>
+        <li>Featured member spotlight</li>
+        <li>VIP networking events</li>
+        <li>Maximum advertising exposure</li>
+        <li>Dedicated support</li>
+      </ul>
+      <button class="close-modal">Close</button>
+    </dialog>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Lima Chamber of Commerce | Omar Lizandro Meza Ramirez</p>
+    <p>WDD 231 Chamber Project</p>
+  </footer>
+
+  <script src="scripts/join.js"></script>
+</body>
+</html>
